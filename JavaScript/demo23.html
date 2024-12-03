@@ -1,0 +1,31 @@
+<html>
+
+<head>
+<title>My JavaScript</title>
+
+<script>
+	//Function with no arguments and no return values
+	function fib(n) //function declarition
+	{
+		if(n==0 || n==1)
+		{
+			return n
+		}
+		else
+		{
+			return fib(n-1)+fib(n-2)
+		}
+	}
+	let n=Number(window.prompt("Enter n value"))
+	document.writeln("The Output="+fib(n))
+
+</script>
+
+</head>
+
+<body>
+
+
+</body>
+
+</html>

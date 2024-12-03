@@ -1,0 +1,43 @@
+<html >
+<head>
+<title>my java script </title> 
+<script>
+
+//Arrow Function with Parameter Function
+
+class Student
+{
+    constructor(sid,sname,sdept,sage)
+    {
+        this.sid=sid
+        this.sname=sname
+        this.sdept=sdept
+        this.sage=sage
+    }
+    display()
+    {
+        document.writeln("Student ID:"+this.sid+"<br/>");
+        document.writeln("Student Name:"+this.sname+"<br/>");
+        document.writeln("Student Department:"+this.sdept+"<br/>");
+        document.writeln("Student Age:"+this.sage+"<br/>");
+    }
+}
+
+var stud=new Student(2000030384,'Nikhil','CSE',18)
+stud.display()
+
+let id=Number(window.prompt("Enter Student ID"))
+let name=window.prompt("Enter Student Name")
+let depart=window.prompt("Enter Student Department")
+let age=Number(window.prompt("Enter Student Age"))
+
+var stud1=new Student(id,name,depart,age)
+stud1.display()
+
+</script>    
+</head>
+<body>
+
+</body>
+</html>
+ 

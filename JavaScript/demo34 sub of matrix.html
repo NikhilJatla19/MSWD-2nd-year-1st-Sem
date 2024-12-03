@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<title>My JavaScript</title>
+
+<script>
+
+	//2D Array
+	var a=new Array()
+	var b=new Array()
+	var c=new Array()
+	//arr=([10,20],[30,40])
+	for(i=0;i<3;i++)
+	{
+		a[i]=new Array(3)
+		b[i]=new Array(3)
+		c[i]=new Array(3)
+	}
+
+	//Reading matrix
+	for(i=0;i<a.length;i++)
+	{
+		for(j=0;j<a[i].length;j++)
+		{
+			a[i][j]=parseInt(window.prompt("Enter Matrix A Element"))
+		}
+	}
+
+	for(i=0;i<b.length;i++)
+	{
+		for(j=0;j<b[i].length;j++)
+		{
+			b[i][j]=parseInt(window.prompt("Enter Matrix B Element"))
+		}
+	}
+
+	for(i=0;i<c.length;i++)
+	{
+		for(j=0;j<c[i].length;j++)
+		{
+			c[i][j]=a[i][j]-b[i][j]
+		}
+	}
+
+	//Displaying Matix
+	for(i=0;i<c.length;i++)
+	{
+		for(j=0;j<c[i].length;j++)
+		{
+			document.writeln(c[i][j]+" ")
+		}
+		document.writeln("<br>")
+
+	}
+
+</script>
+
+</head>
+
+<body>
+
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<html>
+
+<head>
+<title>My JavaScript</title>
+
+<script>
+	var n = parseInt(window.prompt("Enter Input Value"))
+	/*for(i=1;i<=n;i++)
+	{
+		document.writeln(n+"*"+i+"="+(n*i)+"<br>");
+	}*/
+	for(i=1;i<=n;i++)
+	{
+		document.writeln("<table align=center bgcolor=lime>");
+		document.writeln("<tr>");
+		document.writeln("<td>"+n+"</td><td>*</td><td>"+i+"</td><td>=</td><td>"+(n*i)+"</td>");
+		/* 5 lines in one line
+		document.writeln("<table align=center bgcolor=lime><tr><td>"+n+"</td><td>*</td><td>"+i+"</td><td>=</td><td>"+(n*i)+"</td></tr></table>");
+		*/
+		//document.writeln("<td>*</td>");
+		//document.writeln("<td>"+i+"</td>");
+		//document.writeln("<td>=</td>");
+		//document.writeln("<td>"+(n*i)+"</td>");
+		document.writeln("</tr>");
+		document.writeln("</table>");
+	}
+
+</script>
+
+</head>
+
+<body>
+
+
+</body>
+
+</html>

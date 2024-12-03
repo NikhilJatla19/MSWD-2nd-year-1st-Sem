@@ -1,0 +1,45 @@
+<html>
+
+<head>
+<title>My JavaScript</title>
+
+<script>
+
+	//2D Array
+	var arr=new Array()
+	//arr=([10,20],[30,40])
+	for(i=0;i<2;i++)
+	{
+		arr[i]=new Array(2)
+	}
+
+	//Reading matrix
+	for(i=0;i<arr.length;i++)
+	{
+		for(j=0;j<arr[i].length;j++)
+		{
+			arr[i][j]=window.prompt("Enter Matrix Element")
+		}
+	}
+
+	//Displaying Matix
+	for(i=0;i<arr.length;i++)
+	{
+		for(j=0;j<arr[i].length;j++)
+		{
+			document.writeln(arr[i][j]+" ")
+		}
+		document.writeln("<br>")
+
+	}
+
+</script>
+
+</head>
+
+<body>
+
+
+</body>
+
+</html>

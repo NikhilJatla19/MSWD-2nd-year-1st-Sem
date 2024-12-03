@@ -1,0 +1,30 @@
+<html>
+
+<head>
+<title>My JavaScript</title>
+
+<script>
+	//calculate sum and average of an array
+	var size=Number(window.prompt("Enter Array Size"))
+	var arr=new Array(size)
+	for(i=0;i<arr.length;i++)
+	{
+		arr[i]=Number(window.prompt("Enter Array value"))
+	}
+	var sum=0,avg=0;
+	for(i=0;i<arr.length;i++)
+	{
+		sum=sum+arr[i]
+	}
+	document.writeln("Sum="+sum+"<br>Avg="+sum/arr.length)
+
+</script>
+
+</head>
+
+<body>
+
+
+</body>
+
+</html>

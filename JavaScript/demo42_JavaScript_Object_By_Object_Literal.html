@@ -1,0 +1,28 @@
+<html >
+<head>
+<title>my java script </title> 
+<script>
+
+//JavaScript Object By Object Literal
+//Key:Value
+//Object Literal means static initialization
+var emp={id:19,name:"Nikhil",gender:"Male",department:'CSE',salary:100000,status:true}
+
+document.writeln(emp.id+"<br>")//dot operator
+
+document.writeln(emp["id"]+"<br>")//[]operatr,key should be in double quotes[""]
+document.writeln("Using For Loop <br>")
+
+for(var key in emp)
+{
+	document.writeln(emp[key]+"<br>")
+	//document.writeln(typeof(emp[key])+"<br>")
+}
+
+</script>    
+</head>
+<body>
+
+</body>
+</html>
+ 

@@ -1,0 +1,15 @@
+Editors
+
+1.Visual Studio (VS code)
+2.Submit text
+3.atom
+4.brackets
+5.simple Notepad
+6.Notepad++
+7.EditPlus
+
+--------------------------------------------------------------------------------------------------------------------------
+Java Script
+--------------------------------------------------------------------------------------------------------------------------
+HTML(Structure) CSS(Presentation) JavaScript(Behavior)
+

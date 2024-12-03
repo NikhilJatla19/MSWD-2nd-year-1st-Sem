@@ -1,0 +1,34 @@
+<html>
+
+<head>
+<title>My JavaScript</title>
+
+<script>
+	
+	function getinput()
+	{
+		var a=Number(window.prompt("Enter a value"))
+		var b=Number(window.prompt("Enter b value"))
+		return [a,b]
+	}
+	var inputs = getinput()
+	let x=inputs[0];
+	let y=inputs[1];
+
+	document.writeln("Output="+add(x,y))
+
+	function add(p,q)
+	{
+		return p+q;
+	}
+
+</script>
+
+</head>
+
+<body>
+
+
+</body>
+
+</html>

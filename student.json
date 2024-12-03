@@ -1,0 +1,41 @@
+[{
+  "_id": 1,
+  "name": "NIKHIL",
+  "age": 18,
+  "marks": 95,
+  "roolno": 101,
+  "dept": "CSE"
+},{
+  "_id": 2,
+  "name": "SURYA",
+  "age": 25,
+  "marks": 50,
+  "roolno": 102,
+  "dept": "CSE"
+},{
+  "_id": {
+    "$oid": "615bafc8e3475b89d9b1fbf9"
+  },
+  "name": "KRISHNA",
+  "age": 50,
+  "marks": 75,
+  "roolno": 103,
+  "dept": "ECE"
+},{
+  "_id": {
+    "$oid": "615bafc8e3475b89d9b1fbfa"
+  },
+  "name": "RAM",
+  "age": 40,
+  "marks": 90,
+  "roolno": 104,
+  "dept": "ECE"
+},{
+  "_id": {
+    "$oid": "615bb7f5e3475b89d9b1fbfb"
+  },
+  "name": "KLU",
+  "age": 27,
+  "marks": 85,
+  "dept": "CSE"
+}]

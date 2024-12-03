@@ -1,0 +1,49 @@
+<html>
+
+<head>
+
+<title>Registration Form</title>
+
+</head>
+
+<body>
+
+<h1 align=center>User Registration</h1>
+
+<form>
+	Enter First Name<input type="text" placeholder="Enter First Name" required name="fname" value="Nikhil Jatla"><br>
+	Enter Last Name<input type="text" placeholder="Enter Last Name"required name="lname"><br>
+	Select Gender<input type="radio" name="gender" value="m">Male<input type="radio" name="gender" required value="f">Female<br>
+	<b>Enter Email</b><input type="email" placeholder="Enter Email Address" required name="email"><br>
+	<b>Enter UserName</b><input type="text" placeholder="Enter Username" required name="uname"><br>
+	<b>Enter Password</b><input type="password" placeholder="Enter password" required name="pwd" value="nikhil"><br>
+
+	<b>Select Language</b>
+	<select name="language" required multiple="yes">
+		<option value="Telugu">Telugu</option>
+		<option value="English">English</option>
+		<option value="Hindi">Hindi</option>
+	</select>
+	<br>
+
+	<b>Select Date Of Birth</b><input type="date" name="dob"><br>
+	<b>Select Month</b><input type="month" name="month"><br>
+	<b>Select time</b><input type="time" name="time"><br>
+	<b>Select Date & Time</b><input type="datetime-local" name="datetime"><br>
+	<b>Enter Age</b><input type="number" name="Enter Age" name="age"><br>
+	<b>Select Color</b><input type="color" name="color"><br>
+	<b>Select Hobbies</b><input type="checkbox" name="hobbie">Music<input type="checkbox" name="hobbie">Reading Books<input type="checkbox" name="hobbie">Cricket<br>
+	<b>Search</b><input type="search" placeholder="Enter String" required="yes" name="search"><br>
+	<b>Select Range</b><input type="range" min=100 max=1000 name="range"><br>
+	<b>Select Profile Photo</b><input type="file" name="photo"><br>
+	<b>Hidden Field</b><input type="hidden" name="hfield"><br>
+	<input type="submit" value="Register"><br>
+	<input type="reset" value="Clear"><br>
+	<input type="button" value="Display"><br>
+
+
+</form>
+
+</body>
+
+</html>

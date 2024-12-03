@@ -1,0 +1,40 @@
+<html >
+<head>
+<title>my java script </title> 
+<script>
+
+//Arrow Function with Parameter Function
+
+let voter=(age)=>
+{
+    var flag=false;
+    if(age>=18)
+    {
+        document.writeln("Eligible to Vote<br>")
+        flag=true
+        return flag;
+    }
+    else
+    {
+        document.writeln("Not Eligible to Vote<br>")
+    }
+}
+
+var age=Number(window.prompt("Enter Your Age:"))
+
+if(voter(age))
+{
+    alert("Eligible to Vote<br>")
+}
+else
+{
+    alert("Not Eligible to Vote<br>")
+}
+
+</script>    
+</head>
+<body>
+
+</body>
+</html>
+ 

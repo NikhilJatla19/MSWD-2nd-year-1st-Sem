@@ -1,0 +1,47 @@
+<html >
+<head>
+<title>my java script </title> 
+<script>
+//Named Functions VS Anonymous Functions
+
+//Named Function
+
+function show()
+{
+    let name="I Like JavaScript"
+    document.writeln("In Named Function<br>");
+    document.writeln(name);
+    console.log(name)
+    return name;
+}
+
+//Anonymous Functions
+
+let display=function()
+{
+    let str="I Like React Js"
+    document.writeln("In Anonymous Function<br>");
+    document.writeln(str)
+    console.log(str)
+    return str;
+}
+/*
+var a=show(); //Named Function
+var b=display(); //Anonymous Function
+document.writeln("Out Of Functions")
+document.writeln(a)
+document.writeln(b)
+*/
+
+document.writeln("Out Of Named Function<br>");
+document.writeln(show()+"<br>")
+document.writeln("Out Of Anonymous Function<br>");
+document.writeln(display()+"<br>")
+
+</script>    
+</head>
+<body>
+
+</body>
+</html>
+ 

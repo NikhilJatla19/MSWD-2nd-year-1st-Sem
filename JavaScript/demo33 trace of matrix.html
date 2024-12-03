@@ -1,0 +1,57 @@
+<html>
+
+<head>
+<title>My JavaScript</title>
+
+<script>
+
+	//2D Array
+	var a=new Array()
+	var dia=0
+	//arr=([10,20],[30,40])
+	for(i=0;i<2;i++)
+	{
+		a[i]=new Array(2)
+	}
+
+	//Reading matrix
+	for(i=0;i<a.length;i++)
+	{
+		for(j=0;j<a[i].length;j++)
+		{
+			a[i][j]=parseInt(window.prompt("Enter Matrix A Element"))
+		}
+	}
+
+	for(i=0;i<a.length;i++)
+	{
+		for(j=0;j<a[i].length;j++)
+		{
+			if(i==j)
+			{
+				dia=dia+a[i][j]
+			}
+		}
+	}
+
+	//Displaying Matix
+	for(i=0;i<a.length;i++)
+	{
+		for(j=0;j<a[i].length;j++)
+		{
+			document.writeln(a[i][j]+" ")
+		}
+		document.writeln("<br>")
+	}
+	document.writeln("Trace Of The Matrix ="+dia)
+
+</script>
+
+</head>
+
+<body>
+
+
+</body>
+
+</html>
