@@ -1,0 +1,12 @@
+body
+{
+    background-color: teal;
+}
+button
+{
+    margin: 20px;
+    background-color: blue;
+    color: white;
+    border-color: black;
+    border-radius: 10px;
+}
